@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <a href="#" class="sitename">CET138 <span>.</span>dev</a>
+  <ul class="toplinks">
+    <li><a href="#fullstack">Full Stack</a></li>
+    <li><a href="#html">HTML</a></li>
+    <li><a href="#css">CSS</a></li>
+    <li><a href="#bootstrap">Bootstrap</a></li>
+    <li><a href="#javascript">JavaScript</a></li>
+  </ul>
+</nav>
+
+<div class="banner">
+  <div class="toptag">Portfolio · 2025</div>
+  <h1>Full Stack Development — ePortfolio</h1>
+  <p>CET138 - Full Stack Development </p>
+  <div class="bannerbtns">
+    <a href="#fullstack">Full Stack</a>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#bootstrap">Bootstrap</a>
+    <a href="#javascript">JavaScript</a>
+  </div>
+</div>
+
+<!-- section 1 fullstack -->
+<div id="fullstack" class="block">
+  <div class="blocklabel">01 / 05</div>
+  <h2>What is Full Stack Development?</h2>
+
+  <p class="bigtext">
+    Full-stack development refers to building the front end and back end of a web application. Both parts are needed in order to develop the complete web application.
+  </p>
+
+  <p>
+    The front end refers to all user interface components, including buttons, forms, and other UI elements. This part is developed in HTML, CSS, and JavaScript. On the other hand, the back end involves the server component and deals with processes such as user authentication and storage of data. Back-end languages include Python and PHP. In addition, there is a need for a database which will be used to store data. Database technologies include MongoDB and MySQL.
+  </p>
+
+  <p>
+    Communication between these two components is established via API (application programming interface). Here, requests are made via HTTP methods including GET, POST, PUT, and DELETE.
+  </p>
+
+  <div class="notebox">
+    <strong>Real-world example:</strong> Once you access the food delivery app interface (front end), you pick the food item and click on “Order Now.” The order information is relayed to the server via an API. On the back end, availability of the restaurants is verified, the order is stored in the database, and finally, the order request is placed at the restaurant.
+  </div>
+
+  <div class="flowrow">
+    <div class="flowstep">User logs in (Front End)</div>
+    <div class="flowarrow">→</div>
+    <div class="flowstep">API sends credentials</div>
+    <div class="flowarrow">→</div>
+    <div class="flowstep">Server checks DB</div>
+    <div class="flowarrow">→</div>
+    <div class="flowstep">Response: ✓ or ✗</div>
+  </div>
+
+  <div class="cols2">
+    <div>
+      <h3>The Three Layers</h3>
+      <ul style="list-style: none; padding-left: 0;">
+        <li style="margin-bottom: 14px;">
+          <strong>🌐 Front End</strong> — HTML, CSS, JavaScript. What users see and touch.
+          <div class="exbox">The front end refers to all the visible components displayed in the browser, including the visual design, colour scheme, navigation buttons, and transitions. The user interacts with the website through the buttons and forms by clicking on them.</div>
+        </li>
+        <li style="margin-bottom: 14px;">
+          <strong>⚙️ Back End</strong> — Server-side logic and security (Node.js, Python, PHP).
+          <div class="exbox">The back end acts as the engine behind the scenes of a website. It operates in a server (highly powerful computer), where tasks such as logging in your password or payment processes are handled. The users will never be able to access it; they just see its output.</div>
+        </li>
+        <li style="margin-bottom: 14px;">
+          <strong>🗄️ Database</strong> — Where data lives (MySQL, MongoDB, PostgreSQL).
+          <div class="exbox">The database serves as an organised filing cabinet of gigantic size. All data such as user names, messages, orders, etc., are stored in it, and the back-end accesses it as and when required. In its absence, any website will forget everything as soon as it is closed.</div>
+        </li>
+      </ul>
+      <p style="color: var(--greytext);">
+        After learning this module, I will say that full stack is both interesting and difficult. The thing that intrigues me the most about it is the process of creation from scratch, turning my ideas into a working site.
+      </p>
+    </div>
+    <div>
+      <div class="stackrow"><strong>🌐 Front End</strong><br><small>HTML · CSS · JavaScript · React</small></div>
+      <div class="downarrow">▼</div>
+      <div class="stackrow"><strong>🔌 API Layer</strong><br><small>REST API · JSON · HTTP Methods</small></div>
+      <div class="downarrow">▼</div>
+      <div class="stackrow"><strong>⚙️ Back End</strong><br><small>Node.js · Express · Python · PHP</small></div>
+      <div class="downarrow">▼</div>
+      <div class="stackrow"><strong>🗄️ Database</strong><br><small>MySQL · PostgreSQL · MongoDB</small></div>
+    </div>
+  </div>
+
+  <h3>Popular Tech Stacks</h3>
+  <div class="cols3">
+    <div class="infocard">
+      <div class="bigicon">⚡</div>
+      <h4>MERN Stack</h4>
+      <p>MongoDB + Express + React + Node.js — all JavaScript, front to back. Great for modern web apps.</p>
+    </div>
+    <div class="infocard">
+      <div class="bigicon">🏗️</div>
+      <h4>LAMP Stack</h4>
+      <p>Linux + Apache + MySQL + PHP — the classic combination. Powers a huge portion of the web.</p>
+    </div>
+    <div class="infocard">
+      <div class="bigicon">🐍</div>
+      <h4>Django + React</h4>
+      <p>Python's Django on the back end with React on the front — great for data-heavy applications.</p>
+    </div>
+  </div>
+</div>
+
+<!-- section 2 html -->
+<div id="html" class="block">
+  <div class="blocklabel">02 / 05</div>
+  <h2>HTML — The Structure</h2>
+
+  <p class="bigtext">
+    HTML stands for HyperText Markup Language and is one of the languages used in the design and structuring of web pages. Tags play an integral part in HTML as they help in arranging data by informing the browser how data, such as texts and images, should be displayed.
+  </p>
+
+  <p>
+    HTML5 introduced <strong>semantic tags</strong> like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>. These tell browsers and screen readers <em>what the content is</em>, not just how to display it. This matters for <strong>accessibility</strong> and <strong>SEO</strong>.
+    Attributes like <code>href</code>, <code>src</code>, <code>class</code>, and <code>id</code> add extra information to elements.
+  </p>
+
+  <div class="cols2">
+    <div>
+      <h3>Semantic Tags I Used</h3>
+      <ul style="list-style: none; padding-left: 0;">
+
+        <li style="margin-bottom: 12px;">
+          <code>&lt;header&gt;</code> — top section of the page
+          <div class="exbox">
+            <strong>What it is:</strong> The <code>&lt;header&gt;</code> tag surrounds the top portion of a page or a segment, typically consisting of your logo, site title, or main heading. Importance of Tag: This element signals to browsers and screen readers that they have reached the introductory region.
+          </div>
+        </li>
+
+        <li style="margin-bottom: 12px;">
+          <code>&lt;nav&gt;</code> — navigation menu
+          <div class="exbox">
+            <strong>What it is:</strong> The <code>&lt;nav&gt;</code> tag encloses your navigation items, such as the navigation bar across the top of this webpage. The reason it is important is that it allows screen reader technology to direct users directly to the navigation section.
+          </div>
+        </li>
+
+        <li style="margin-bottom: 12px;">
+          <code>&lt;main&gt;</code> — the primary content area
+          <div class="exbox">
+            <strong>What it is:</strong> The <code>&lt;main&gt;</code> tag encloses the actual content of the web page that makes each page unique. Importance: Instructs browsers to disregard other tags such as the sidebar and header tags and jump directly to the actual content of the page. SEO-friendly.
+          </div>
+        </li>
+
+        <li style="margin-bottom: 12px;">
+          <code>&lt;article&gt;</code> — standalone content like a blog post
+          <div class="exbox">
+            <strong>What it is:</strong> The <code>&lt;article&gt;</code> tag is meant to contain self-standing content that stands alone as its own — such as news articles, blogs, or even product cards. Significance: Search engines will take it as standalone content, thus improving indexing and sharing.
+          </div>
+        </li>
+
+        <li style="margin-bottom: 12px;">
+          <code>&lt;footer&gt;</code> — bottom of the page
+          <div class="exbox">
+            <strong>What it is:</strong> The <code>&lt;footer&gt;</code> tag encompasses content that stands alone and has meaning by itself, such as a news article, blog entry, or product card. Importance: This is considered independent content by search engines, enhancing indexing and distribution potential.
+          </div>
+        </li>
+
+      </ul>
+      <div class="learnedbox">
+        ✅ <strong>What I learned:</strong> Semantic HTML is coding that is easy for people and software to understand.
+      </div>
+      <div class="hardbox">
+        ⚠️ <strong>Challenge I faced:</strong> I kept using <code>&lt;div&gt;</code> for everything at first. Learning when to use semantic tags instead took some practice.
+      </div>
+    </div>
+    <div>
+      <pre>&lt;!-- Basic HTML page structure --&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;title&gt;Introduction&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;nav&gt;
+    &lt;a href="#"&gt;Home&lt;/a&gt;
+    &lt;a href="#"&gt;About&lt;/a&gt;
+  &lt;/nav&gt;
+  &lt;main&gt;
+    &lt;p&gt;This is about me.&lt;/p&gt;
+  &lt;/main&gt;
+  
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+    </div>
+  </div>
+
+  <h3>Live Example — HTML Contact Form</h3>
+  <p style="color: var(--greytext); margin-bottom: 6px;">
+    This form uses HTML elements like <code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, and <code>&lt;textarea&gt;</code>. I added <strong>JavaScript form validation</strong> (covered in Section 5) so it gives real-time feedback before submitting.
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 20px;">
+    <div class="exbox" style="margin: 0;">
+      <strong><code>&lt;input&gt;</code></strong><br>
+      A single-line text field. The <code>type</code> attribute changes what it accepts — <code>type="text"</code> for names, <code>type="email"</code> to validate email format automatically.
+    </div>
+    <div class="exbox" style="margin: 0;">
+      <strong><code>&lt;select&gt;</code></strong><br>
+      Creates a dropdown menu. Each option inside it uses an <code>&lt;option&gt;</code> tag. Useful when you want users to pick from a fixed list instead of typing freely.
+    </div>
+    <div class="exbox" style="margin: 0;">
+      <strong><code>&lt;textarea&gt;</code></strong><br>
+      A resizable multi-line text box. Unlike <code>&lt;input&gt;</code>, it can hold long messages. The <code>rows</code> attribute sets how tall it starts.
+    </div>
+  </div>
+
+  <div class="myform">
+    <div class="cols2" style="margin-top: 0; gap: 20px;">
+      <div class="fieldwrap">
+        <label>Name *</label>
+        <input type="text" id="fname" placeholder="Your full name">
+        <div class="errmsg" id="nameErr">Please enter your name.</div>
+      </div>
+      <div class="fieldwrap">
+        <label>Email *</label>
+        <input type="email" id="femail" placeholder="your@email.com">
+        <div class="errmsg" id="emailErr">Please enter a valid email address.</div>
+      </div>
+    </div>
+    <div class="fieldwrap">
+      <label>What are you?</label>
+      <select id="frole">
+        <option value="">Select...</option>
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Developer</option>
+      </select>
+    </div>
+    <div class="fieldwrap">
+      <label>Message (optional)</label>
+      <textarea id="fmessage" rows="3" placeholder="Say something..."></textarea>
+    </div>
+    <button class="sendbtn" onclick="submitForm(event)" type="button">Send Message</button>
+    <p id="successmsg" style="display:none; color:#16a34a; margin-top:14px; font-weight:600;">✓ Message sent!</p>
+  </div>
+</div>
+
+<!-- section 3 css -->
+<div id="css" class="block">
+  <div class="blocklabel">03 / 05</div>
+  <h2>CSS — The Style</h2>
+
+  <p class="bigtext">
+    <strong>CSS (Cascading Style Sheets)</strong> is the style sheet language that allows you to define how a web page written in HTML will look. CSS enables styling HTML elements by setting color, font, margins, positions, and other options that make websites beautiful.
+  </p>
+
+  <p>
+    CSS works by <strong>selecting</strong> an HTML element and applying styles to it. You can select by tag (<code>h1</code>), by class (<code>.button</code>), or by ID (<code>#header</code>). The "cascading" part means styles can be overridden — more specific rules win.
+  </p>
+
+  <div class="cols2">
+    <div>
+      <pre>/* Selectors and properties */
+h1 {
+  color: #0f1c2e;
+  font-size: 2rem;
+}
+
+.button {
+  background: #4f9cf9;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+/* Media query for phones */
+@media (max-width: 700px) {
+  h1 { font-size: 1.5rem; }
+}</pre>
+      <p style="margin-top: 14px;"><strong>Key CSS concepts I learned:</strong></p>
+      <ul style="padding-left: 0; list-style: none;">
+        <li style="margin-bottom: 10px;"><strong>Box Model</strong> — every element has margin, border, padding, and content</li>
+        <li style="margin-bottom: 10px;"><strong>Flexbox</strong> — for arranging items in rows or columns easily</li>
+        <li style="margin-bottom: 10px;"><strong>CSS Grid</strong> — for complex two-dimensional layouts</li>
+        <li style="margin-bottom: 10px;"><strong>Media Queries</strong> — make websites responsive on phones and tablets</li>
+        <li style="margin-bottom: 10px;"><strong>Transitions</strong> — smooth animations on hover states</li>
+      </ul>
+      <div class="learnedbox">
+        ✅ <strong>What I learned:</strong> The use of CSS variables (<code>--blue: #4f9cf9</code>) allows one to easily change colors throughout the entire site at once.
+      </div>
+      <div class="hardbox">
+        ⚠️ <strong>Challenge I faced:</strong> I used to find it difficult to center website elements. But flexbox came along to help center things with <code>display: flex; justify-content: center; align-items: center;</code>.
+      </div>
+    </div>
+    <div>
+      <h4>Box Model Visualised</h4>
+      <div class="boxshow">
+        <div class="marginpart">
+          <div class="partlabel">🟠 Margin — space outside the border</div>
+          <div class="paddingpart">
+            <div class="partlabel">🔵 Padding — space inside the border</div>
+            <div class="contentpart">📄 Content</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="exbox" style="margin-top: 10px;">
+        Each HTML element will be enclosed by these unseen layers. Consider a framed picture wherein the picture serves as the content while the mat represents the padding, the frame stands for the border, and margin refers to the space between the frame and the next frame in the wall. The reason why elements do not align well is due to a box model problem.
+      </div>
+
+      <h4 style="margin-top: 22px;">Flexbox in Action</h4>
+      <div class="flexshow">
+        <div class="flexchild">Item 1</div>
+        <div class="flexchild">Item 2</div>
+        <div class="flexchild">Item 3</div>
+      </div>
+
+      <div class="exbox" style="margin-top: 10px;">
+        By writing <code>display: flex</code> on the container (the purple box), all three child items automatically line up in a row. Adding <code>justify-content: space-between</code> moves Item 1 to the left side, Item 3 to the right side, and Item 2 is kept in the center, without the need for coding the positions explicitly.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- section 4 bootstrap -->
+<div id="bootstrap" class="block">
+  <div class="blocklabel">04 / 05</div>
+  <h2>Bootstrap — The Framework</h2>
+
+  <p class="bigtext">
+    <strong>Bootstrap</strong> is an open-source CSS framework that promotes simplicity and efficiency in web designing. It contains some templates for design that can be modified using HTML and CSS to change the font, forms, buttons, tables, navigation, dropdowns, and much more.
+  </p>
+
+  <p>
+    Bootstrap's <strong>12-column grid</strong> is its most powerful feature. You divide your layout into columns using classes like <code>col-6</code> (half width) or <code>col-md-4</code> (one third on medium screens). The <code>md</code> part means the layout adjusts based on screen size — that's how responsive design works.
+  </p>
+
+  <div class="notebox">
+    <strong>Why use a framework like Bootstrap?</strong> Think of constructing a home. You have two options: one, build each and every brick yourself; two, purchase ready-to-use bricks, and concentrate on designing. With Bootstrap, you have ready-made bricks that are already constructed for you, which saves you a lot of effort in coding, as you can focus on other aspects of development rather than spending time writing CSS again and again.
+  </div>
+
+  <div class="cols2">
+    <div>
+      <pre>&lt;div class="container"&gt;
+  &lt;div class="row g-3"&gt;
+    &lt;div class="col-md-4"&gt;
+      Card 1
+    &lt;/div&gt;
+    &lt;div class="col-md-4"&gt;
+      Card 2
+    &lt;/div&gt;
+    &lt;div class="col-md-4"&gt;
+      Card 3
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Bootstrap button classes --&gt;
+&lt;button class="btn btn-primary"&gt;
+  Click me
+&lt;/button&gt;</pre>
+
+      <div class="exbox">
+        <strong>What this code is doing, line by line:</strong><br><br>
+        <code>.container</code> — Wrapper with centered class that provides padding around to prevent the content from touching the screen borders.<br><br>
+        <code>.row</code> — Creates a row horizontally. Columns have to be placed within a row, otherwise, the grid will collapse. <code>g-3</code> adds a gap between columns.<br><br>
+        <code>.col-md-4</code> — Bootstrap divides a row into 12 columns. <code>col-md-4</code> means "take up 4 out of 12 columns" — that's one third of the width. Three of these add up to 12, so all three cards sit side by side. The <code>md</code> means this layout only kicks in on medium screens and above; on a phone they stack vertically.<br><br>
+        <code>.btn .btn-primary</code> — Bootstrap's ready-made button style. <code>btn-primary</code> applies the blue colour theme automatically — no CSS needed.
+      </div>
+
+      <div class="learnedbox">
+        ✅ <strong>What I learned:</strong> Bootstrap's breakpoints (<code>sm</code>, <code>md</code>, <code>lg</code>) let you control layout at different screen sizes without writing your own media queries.
+      </div>
+      <div class="hardbox">
+        ⚠️ <strong>Challenge I faced:</strong> At first I didn't understand why columns needed to be inside a <code>.row</code> inside a <code>.container</code> — but that structure is what makes the grid system work correctly.
+      </div>
+    </div>
+    <div>
+      <div class="bsdemo">
+        <h4 style="margin-bottom: 14px;">Bootstrap Grid (3 equal columns)</h4>
+        <div class="row g-2 mb-4">
+          <div class="col-4"><div class="bg-primary text-white p-2 text-center rounded" style="font-size:0.82rem;">col-4</div></div>
+          <div class="col-4"><div class="bg-primary text-white p-2 text-center rounded" style="font-size:0.82rem;">col-4</div></div>
+          <div class="col-4"><div class="bg-primary text-white p-2 text-center rounded" style="font-size:0.82rem;">col-4</div></div>
+        </div>
+
+        <h4 style="margin-bottom: 10px;">Bootstrap Buttons</h4>
+        <div class="mb-4" style="display:flex; flex-wrap:wrap; gap:6px;">
+          <button class="btn btn-primary btn-sm">Primary</button>
+          <button class="btn btn-danger btn-sm">Danger</button>
+          <button class="btn btn-success btn-sm">Success</button>
+          <button class="btn btn-warning btn-sm">Warning</button>
+          <button class="btn btn-outline-secondary btn-sm">Outline</button>
+        </div>
+
+        <h4 style="margin-bottom: 10px;">Bootstrap Alert</h4>
+        <div class="alert alert-success py-2 mb-4" style="font-size:0.88rem;">✓ Your changes have been saved!</div>
+
+        <h4 style="margin-bottom: 10px;">Bootstrap Card</h4>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:1rem;">Weather App Project</h5>
+            <p class="card-text" style="font-size:0.85rem; color:#666;">A weather app I built using Bootstrap for the front end and a free weather API for data.</p>
+            <a href="#" class="btn btn-primary btn-sm">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- section 5 javascript -->
+<div id="javascript" class="block">
+  <div class="blocklabel">05 / 05</div>
+  <h2>JavaScript — The Behaviour</h2>
+
+  <p class="bigtext">
+    <strong>JavaScript</strong> brings web pages to life. It lets you respond to user actions, update content dynamically, validate forms, and even save data — all without reloading the page.
+  </p>
+
+  <h3 style="margin-top: 0;">How JavaScript Actually Works</h3>
+  <p style="color: var(--greytext); margin-bottom: 16px;">
+    Think of your HTML as a static blueprint and JavaScript as the person who can actually change things in that blueprint while someone is looking at it. Here are the core ideas:
+  </p>
+
+  <div class="conceptgrid">
+    <div class="conceptcard">
+      <h4>🌳 The DOM — Your Page as a Tree</h4>
+      <p>When a browser loads your HTML, it turns it into a tree of objects called the <strong>DOM (Document Object Model)</strong>. Every tag becomes a node in that tree. JavaScript can reach into that tree and change anything — text, colour, visibility — at any time using <code>document.getElementById()</code> or similar.</p>
+    </div>
+    <div class="conceptcard">
+      <h4>👂 Events — Listening for Actions</h4>
+      <p>JavaScript watches for things the user does — clicking a button, pressing a key, moving a mouse. These are called <strong>events</strong>. You attach a function to an event using <code>onclick</code> or <code>addEventListener()</code>. When the event fires, your function runs and something changes on the page.</p>
+    </div>
+    <div class="conceptcard">
+      <h4>🔁 Functions — Reusable Instructions</h4>
+      <p>A <strong>function</strong> is a named block of code you can run whenever you need it. Instead of writing the same logic 10 times, you write it once as a function and call it by name. Functions can receive data (parameters) and return a result — like a machine: put something in, get something out.</p>
+    </div>
+    <div class="conceptcard">
+      <h4>🌐 fetch() — Talking to a Server</h4>
+      <p><code>fetch()</code> lets your page send a request to a server and receive data back — without refreshing the page. The server sends back <strong>JSON</strong> (a text format that looks like a JavaScript object). You then read that data and update the DOM with it. This is how live search, weather apps, and news feeds work.</p>
+    </div>
+  </div>
+
+  <div class="cols2" style="margin-top: 28px;">
+    <div>
+      <pre>// Event listeners + DOM manipulation
+let count = 0;
+
+function increase() {
+  count++;
+  document.getElementById("counter")
+    .innerHTML = count;
+  // finds the element with id="counter"
+  // and changes its text to the new count
+}
+
+// Fetching data from an API
+fetch("https://api.example.com/user")
+  .then(res => res.json())
+  .then(data => {
+    console.log(data.name);
+  });
+
+// Saving to localStorage
+localStorage.setItem("note", "Hello!");
+let saved = localStorage.getItem("note");
+</pre>
+      <p style="margin-top: 14px;"><strong>What JavaScript can do:</strong></p>
+      <ul style="padding-left: 18px;">
+        <li>Respond to events — clicks, typing, form submits</li>
+        <li>Change HTML and CSS on the fly (DOM manipulation)</li>
+        <li>Validate form inputs before submitting</li>
+        <li>Fetch live data from APIs using <code>fetch()</code></li>
+        <li>Remember data between sessions with <strong>localStorage</strong></li>
+      </ul>
+      <div class="learnedbox">
+        ✅ <strong>What I learned:</strong> JavaScript is what separates a static page from an actual app. Even small things like real-time form feedback make a huge difference to the user experience.
+      </div>
+      <div class="hardbox">
+        ⚠️ <strong>Challenge I faced:</strong> Understanding how <code>localStorage</code> works took me a while — data is saved as strings, so you need <code>JSON.stringify()</code> and <code>JSON.parse()</code> to store objects.
+      </div>
+    </div>
+    <div>
+
+      <!-- quiz -->
+      <div class="darkbox">
+        <h4>🧠 Mini Quiz — Testing DOM & Events</h4>
+        <p class="desctxt">Each button triggers an <code>onclick</code> event. JS checks your answer against the correct one and updates the DOM — changing text and colour — without any page reload.</p>
+        <div id="qtext" style="font-size: 0.92rem; color: rgba(255,255,255,0.85); margin-bottom: 12px; font-weight: 600;"></div>
+        <div id="qoptions"></div>
+        <div class="qfeedback" id="qfeedback"></div>
+        <div style="margin-top: 12px; display: flex; gap: 8px; flex-wrap: wrap;">
+          <button class="minibtn minibtn-ghost" onclick="nextQ()">Next Question →</button>
+          <span style="font-size: 0.78rem; color: rgba(255,255,255,0.4); align-self: center;" id="scoreshow">Score: 0 / 0</span>
+        </div>
+      </div>
+
+      <!-- word counter -->
+      <div class="darkbox">
+        <h4>⌨️ Live Word Counter — Using Input Events</h4>
+        <p class="desctxt">As you type, JS listens for the <code>input</code> event on the textarea. It counts words and characters in real time by reading the value and updating the DOM instantly.</p>
+        <textarea class="darktxt" id="writingarea" placeholder="Start typing anything here..." oninput="countWords()" style="min-height: 70px; margin-bottom: 8px;"></textarea>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <span style="font-size: 0.82rem; color: rgba(255,255,255,0.5);">Words: <strong style="color: var(--blue);" id="wcount">0</strong></span>
+          <span style="font-size: 0.82rem; color: rgba(255,255,255,0.5);">Characters: <strong style="color: var(--blue);" id="ccount">0</strong></span>
+          <span style="font-size: 0.82rem; color: rgba(255,255,255,0.5);">Sentences: <strong style="color: var(--blue);" id="scount">0</strong></span>
+        </div>
+      </div>
+
+      <!-- calculator -->
+      <div class="darkbox">
+        <h4>🔢 Calculator — Functions & Logic</h4>
+        <p class="desctxt">Each key button calls a JS function that builds an expression string. When you press = JS evaluates it and updates the display — showing how functions, variables, and DOM updates work together.</p>
+        <div class="calcscreen">
+          <div class="calcexpr" id="exprline"></div>
+          <div class="calcnum" id="numline">0</div>
+        </div>
+        <div class="calcgrid">
+          <button class="cbtn cbtn-clr cbtn-wide" onclick="clearCalc()">C</button>
+          <button class="cbtn cbtn-op" onclick="pressKey('/')">÷</button>
+          <button class="cbtn cbtn-op" onclick="pressKey('*')">×</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('7')">7</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('8')">8</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('9')">9</button>
+          <button class="cbtn cbtn-op" onclick="pressKey('-')">−</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('4')">4</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('5')">5</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('6')">6</button>
+          <button class="cbtn cbtn-op" onclick="pressKey('+')">+</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('1')">1</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('2')">2</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('3')">3</button>
+          <button class="cbtn cbtn-eq" onclick="calculate()" style="grid-row: span 2;">＝</button>
+          <button class="cbtn cbtn-num cbtn-wide" onclick="pressKey('0')">0</button>
+          <button class="cbtn cbtn-num" onclick="pressKey('.')">.</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- localStorage demo -->
+  <h3>Bonus: localStorage — Saving Data in the Browser</h3>
+  <p style="color: var(--greytext); margin-bottom: 20px;">
+    <strong>localStorage</strong> lets JavaScript save small pieces of data in the browser — even after you close the tab. Try typing something below, saving it, then refreshing the page — it will still be there.
+  </p>
+
+  <div class="savebox">
+    <h4>📝 Persistent Notes (localStorage)</h4>
+    <p class="desctxt">When you click Save, JS calls <code>localStorage.setItem(key, value)</code> to store your text. When you reload, the page checks for saved data and loads it back automatically.</p>
+    <textarea class="darktxt" id="notearea" placeholder="Type a note here... it will be saved even after you refresh!"></textarea>
+    <div class="savebtnrow">
+      <button class="savebtn savebtn-save" onclick="saveIt()">💾 Save Note</button>
+      <button class="savebtn savebtn-load" onclick="loadIt()">📂 Load Saved</button>
+      <button class="savebtn savebtn-del" onclick="deleteIt()">🗑 Clear</button>
+    </div>
+    <div class="savestatus" id="notestatus">Ready — type something and save it.</div>
+  </div>
+</div>
+
+<footer>
+  <p><span>CET 138</span> · Full Stack Development Portfolio · 2025</p>
+  <p>HTML · CSS · Bootstrap · JavaScript</p>
+</footer>
+
+<script src="js/form.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/wordcounter.js"></script>
+<script src="js/calculator.js"></script>
+<script src="js/storage.js"></script>
+
+</body>
+</html>
